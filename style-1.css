@@ -1,0 +1,83 @@
+*{margin:0;padding:0}
+
+body{background-color:#DC143C;}
+
+.main{width:900px;margin:auto;background-color:#FF6347;}
+
+.header-logo{background:pink;margin-top:5px;}
+.header-logo img{width:900px;}
+
+.navigation{width:100%;margin-top:3px;background-color:#f2f2f2;height:50px;transform:uppercase;font-size:20px}
+
+.navigation ul{list-style:none;}
+
+.navigation ul li{display:inline;margin-top:6px;margin-left:60px;}
+
+.navigation ul li a{text-decoration:none;color:#111;}
+
+.navigation ul li a:hover{background:#ddd;}
+
+.first-content{width:100%;border:1px solid pink; background-color:#DB7093;overflow:hidden;margin-top:4px;}
+
+.class-name{width:230px;float:left;padding:20px;margin:5px 0px 0px 5px;}
+.class-name h3{text-align:center;text-transform:uppercase;border:2px solid black;}
+.class-name ol{list-style:italic}
+
+.class-name ol li{margin:4px 0px 0px 2px;border-bottom:1px solid black;list-style:italic;}
+
+.class-name ol li a{text-decoration:none;color:green;}
+.class-name ol li a:hover{background:#fff;}
+
+.notice-section{width:550px;float:right;padding:20px;margin:5px 0px 2px 3px; border-left:2px solid black;}
+.notice-section h3{text-align:center;text-transform:uppercase;border:2px solid black;}
+.notice-section ol{list-style:italic;margin-left:5px;}
+.notice-section ol li{margin:4px 3px 0px 3px;border-bottom:1px solid black;}
+
+.notice-section ol li a{text-decoration:none;color:green;}
+.notice-section ol li a:hover{background:#fff;}
+
+.banner{width:900px;background:url(image/madrasha.png);height:400px;background-repeat:none;margin:4px 0px;}
+
+.banner h2 p{color:#FF7F50;margin-top:10px;font-size:20px;}
+
+.wikipedia{width:100%;margin:4px 0px;}
+.wiki-about{width:800;border:2px solid black;text-align:justify;padding:10px;background:#DB7093;}
+.wiki-about h2{text-align:center;font-weight:normal;}
+.wiki-about p{text-align:justify;font-weight:normal;color:#4B0082;padding:5px;font-size:12px;}
+.wiki-about a{text-decoration:none;background:green;color:red;}
+.wiki-about a:hover{background:#fff;color:#111;transform:rotateX(2deg);}
+
+.wiki-bg{width:800;border:2px solid black;text-align:justify;padding:10px;margin-top:4px;background:#DB7093;}
+.wiki-bg h2{text-align:center;font-weight:normal;}
+.wiki-bg p{text-align:justify;font-weight:normal;color:#4B0082;padding:5px;font-size:12px;}
+.wiki-bg a{text-decoration:none;background:green;color:red;}
+.wiki-bg a:hover{background:#fff;color:#111;transform:rotate(2);}
+
+
+.second-content{width:100%; margin:10px 0px;border:2px solid black;border-radius:2px;}
+
+.principal-pic{width:435px;float:left;margin:3px 0px 0px 5px;padding:5px;background:#BDB768;}
+.principal-pic img{width:360px;border:3px solid red;}
+.principal-pic h2{background:#2f2f2f;color:#fff;}
+.principal-pic p{background:#2f2f2f;color:#fff}
+
+.vice-principal-pic{width:435px;float:right;margin:3px 0px 0px 5px;padding:5px;background:#BDB768;}
+.vice-principal-pic img{width:360px;border:3px solid red}
+.vice-principal-pic h2{background:#2f2f2f;color:#fff;}
+.vice-principal-pic p{background:#2f2f2f;color:#fff;}
+
+marquee{background:#111;color:#fff; font-size:12px;text-decoration:italic;padding:5px;margin-top:8px;height:30px;border-bottom:2px solid red;}
+
+.3rd-content{width:100%;margin-top:5px;overflow:hidden;background :#DB7093;}
+
+.mad-info{width:400px;float:left;padding:10px;border-left:2px solid black;border-right:2px solid black;background :#DB7093;}
+.mad-info dt{border:1px solid black;border-radius:10px;padding:10px;}
+.mad-info dt dd{font-weight:normal;padding:10;margin-top:5px;}
+
+.others{float:right;width:400px;line-height:30px;border-right:2px solid black;border-left:2px solid black;background :#DB7093;}
+.others b{text-align:center;border:1px solid black;}
+.others p{font-weight:normal;padding:5px;}
+
+
+.footer{background:#3CB371;color:red;margin-top:330px;width:100%; height:60px;margin-bottom:5px;}
+.footer p{font-size:25px;word-spacing:7px;text-align:center;}
